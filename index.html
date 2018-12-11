@@ -10,7 +10,7 @@
 <body onload='document.getElementById("animate").className = "animate";'>
     <style>
         body {
-            background: radial-gradient( circle, transparent 50%, black 200%), white;
+            background: radial-gradient( circle, transparent 50%, black 300%), white;
         }
         
         a {
@@ -31,6 +31,19 @@
         
         @media only screen and (max-width: 768px) {
             body {
+                font-size: 10pt;
+                background: radial-gradient( circle, transparent 50%, black 500%), white;
+            }
+        }
+        
+       @media only screen and (max-width: 536px) {
+            body {
+                font-size: 8pt;
+            }
+        }
+        
+        @media only screen and (max-width: 400px) {
+            body {
                 font-size: 7pt;
             }
         }
@@ -41,15 +54,22 @@
             -webkit-box-shadow: 2px 2px 9px -1px rgba(0, 0, 0, 0.75);
             -moz-box-shadow: 2px 2px 9px -1px rgba(0, 0, 0, 0.75);
             box-shadow: 2px 2px 9px -1px rgba(0, 0, 0, 0.75);
-            transform: rotateX(60deg) rotateZ(20deg);
-            transition: transform .6s ease-in-out, margin 0.7s linear;
+            
+            /*transform: rotateX(60deg) rotateZ(20deg);*/
+            /*transition: transform .6s ease-in-out, margin 0.7s linear;*/
+            
+            transition: transform .6s ease-in-out, margin 0.3s linear, opacity .4s linear;
+            opacity: 0;
+            margin-bottom: 12.5vh;
+            
             border-left: 0.6em solid #0C9EED;
             background-color: #ffffff;
         }
         
         section.animate {
-            transform: rotateX(0deg) rotateZ(0deg);
+            /*transform: rotateX(0deg) rotateZ(0deg);*/
             margin-bottom: 25vh;
+            opacity: 1;
         }
         
         .avatar {
@@ -76,6 +96,8 @@
             font-family: 'Open Sans';
             color: #868e96;
         }
+        
+        
         
         .grid-social1,
         .grid-social2,
@@ -124,12 +146,12 @@
             grid-area: grid-social4;
         }
         
-        .grid-name {
-            grid-area: grid-name;
-        }
-        
         .grid-social5 {
             grid-area: grid-social5;
+        }
+        
+        .grid-name {
+            grid-area: grid-name;
         }
         
         .grid-about {
@@ -209,7 +231,15 @@
 
         </section>
     </main>
-
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57635797-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-57635797-3');
+    </script>
 </body>
 
 </html>
