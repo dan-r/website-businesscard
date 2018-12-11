@@ -1,0 +1,218 @@
+==================================================================
+https://keybase.io/danr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dan.ms
+  * I am danr (https://keybase.io/danr) on keybase.
+  * I have a public key with fingerprint BDD4 A5C6 7D07 C403 866A  6142 E723 65D2 1A6C AF3E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101597f062bffcdb8fbbc6a74b1fa89f9c836135e09ecfbb343f84b47f99c698cf80a",
+      "fingerprint": "bdd4a5c67d07c403866a6142e72365d21a6caf3e",
+      "host": "keybase.io",
+      "key_id": "e72365d21a6caf3e",
+      "kid": "0101597f062bffcdb8fbbc6a74b1fa89f9c836135e09ecfbb343f84b47f99c698cf80a",
+      "uid": "2b4bab1f3396f965f3eba3a67d14f000",
+      "username": "danr"
+    },
+    "service": {
+      "hostname": "dan.ms",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1519990190,
+  "expire_in": 157680000,
+  "prev": "2ffb120acf84847531133f05ebe2bd4fb37301e4fd94338cf8b0a554159ddf0b",
+  "seqno": 46,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMIYAnicrVJbSFRBGF4zSy272I3qITqVIqjM7My5bXS1FCl6qA1Dkm3mzMx6vJxd
+zx7XzOxiEEVWRkG1GJkEld1IfK7MetEgKKgMH7QeguhCSAVB0Rwpeumxp2H+//v+
+//s+/oc56YHstMzOrF2ze26eShvqP9EYqDyv3mpRaIw1K6EWpZZPPLyO8YQXqbWZ
+ElIABFA1dQG0IBXCYtQQlFoa0TGFghimMC0DaRCpHJjckj2EkTAwxbowTUszDUsY
+gCiFirCdKHfjru14cixlDBPV0nQGdAsDZGga0SAOcj2INJUFIdEsIhCXxOpYwmdI
+cZQkeLEdkzX5iUzI+wf+P+tunBgXpJgSyUTI1ISpqXIVJYhI/RALAIAPTHDXIfVc
+ohlxXKW1UJGVpG1xP1Tfxd9ucX1CMuJuzItZsTpZq/a8eCLkc7zmuA9q4jTymx6h
+tsNkepKR5G7CjjlKCEqk5dn+PKhC0zQBNEGhwnfHbZdHbB+h6pohlQF/D0/6HoSg
+MAiIdIYNrKsIQoQEUDnlQcqwoEhHAHIsmIkR8gOggKgqljkyJgBVfEMNTkwJYU3q
+JFE5M2FHHeI1ulxpfXB/5+RAWnZgSsYk/6wC2Vmz/hzb8dHMwP3M3atLhu7uWLv5
+aQ9OpZv7v+Weu3Yw41Ln98cXFZHc0/BDrXz+VWxDqfy+7kUruxcq7Z9HTlecrBo7
+szn38/y37VkXyurhh7HijdHLbNqdV8s3hK++r3IeDd1rXtGBnvQV0Bo4OH5iWk7P
+jcXr36w5UFbU9bN0eNLNTDajryP1Ir2hdG59W+pjclnnl2NHvlmk6fW8VS2DtLs3
+MviyGl6ZumkTGwjvzXuXSq/YmrUge1HrmzZh7nOTe0LhArq9duPR2/0zpvTWFYXX
+jS6es6QherZcXb+lHOcfrukN4+v57eNLU0c/eav7Zi+YPjzyrLc870OXMTVaMrNS
+OzSAysL8F8uhMWk=
+=2F03
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/danr
+
+==================================================================
+
+==================================================================
+https://keybase.io/danr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://danr.uk
+  * I am danr (https://keybase.io/danr) on keybase.
+  * I have a public key with fingerprint BDD4 A5C6 7D07 C403 866A  6142 E723 65D2 1A6C AF3E
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101597f062bffcdb8fbbc6a74b1fa89f9c836135e09ecfbb343f84b47f99c698cf80a",
+            "fingerprint": "bdd4a5c67d07c403866a6142e72365d21a6caf3e",
+            "host": "keybase.io",
+            "key_id": "e72365d21a6caf3e",
+            "kid": "0101597f062bffcdb8fbbc6a74b1fa89f9c836135e09ecfbb343f84b47f99c698cf80a",
+            "uid": "2b4bab1f3396f965f3eba3a67d14f000",
+            "username": "danr"
+        },
+        "revoke": {
+            "sig_ids": [
+                "7d0b9d8107ee772e318906bf82492d62300f56633a8ced7ea51de9785f72a6fd0f"
+            ]
+        },
+        "service": {
+            "hostname": "danr.uk",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1447087989,
+    "expire_in": 157680000,
+    "prev": "13fdcd5a12196a1d812b147edcaf094a98992ba7383f0751eaf5e2fdef346d32",
+    "seqno": 34,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.47
+Comment: https://keybase.io/crypto
+
+yMJjAnicrVJbaFxFGN4kWrKr1falL8WAEyTQxjBzZs5c9kG0AUGFolSMl8bNzJmZ
+9LDJOdtzdjeJtVgbBNEqbiFopUTpg9JoaCuWxpaQCy20Bhu61CraF1OVQksJ4uVF
+1DlBwQcffRrmn+/2//OfXd+WK7S0H84PbJyabrQsLdyo5Z56cLm2B6hYj4HiHlA2
+a4cZ0iatlsqhBkUAEUS+YBZST1kbaMWtUgGVjChkJRdWBBxThH0DhQncGybYcqII
+s0IEVPDAcihBN7BhNGiSShJGVSertCbSDyjTkAUEYk6ppIh4hnmY+tpDkgbSYuOI
+u+I0Y7hwSqamJ4xdzV1Ka/H+A/8/566tyXmKKOmYGAtqBfWdlZJYuvyIWAhhBkxN
+Eslh49BaRgnY2w0SU4/LJptpGg66wCkoPgdcy0pojiAzhjHPYMQFpMpyjwhPUw9D
+aH1KMZY8MJoZ6SNtBOO+ZZ6kVkML+p22c6uHwZp4NqF/OffUyi5OJYmrcRAPueKu
+arWSFrNA1bFKhhoxqvQ3v6TCSLuvcYy6SdIwjkAROWRQDTNBRAiDnAkuuoEZrYSJ
+KYUZwmeUu7Zh5mPqThJhqwPtS+QhQSVy/XkKEWa0+xYoiHQKwlOSYY4tZD4y0vrG
+s9pYTKjGHsg62h3FoIiJyykHnaYbWiSrtcSAvYvzO2/LtRRy625vzXY2V8hv+GeT
+5xrtuQvl85Ov16cfPjX8UO+P0eGVLX3P8sYnO5ofjKgmuTe/4Un6hRxcaluceeHX
+Lac70s4jzeFr8uatm5vqj3e/dRT8uXVb34EL7Tvq9zzRgzo2v7z61TePxteOfn5i
+98yhDr1u8bWr863P589//UxSaNVDv83eOfHt5Cl+unDp5Eznh7+/2HnX9tpL3vf1
+/AP7Hzv4fnPu8r71q/3Hlid7Dx14c7zvYtcPW+87/sers/TLK09Ps4H9sxPNruHP
+5kZnJ36J37vjeNvKEt2+7eTHPweX940PrM4cG1lYecUP+3+68vby9fTqwtlz8+ON
+S2/cfaYxNrXZPxLf/87q9e8Oftobn/lo52h56hGw8G7XX8FuX1o=
+=KD/E
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/danr
+
+==================================================================
+
+==================================================================
+https://keybase.io/danr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://danr.co.uk
+  * I am danr (https://keybase.io/danr) on keybase.
+  * I have a public key with fingerprint BDD4 A5C6 7D07 C403 866A  6142 E723 65D2 1A6C AF3E
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101597f062bffcdb8fbbc6a74b1fa89f9c836135e09ecfbb343f84b47f99c698cf80a",
+            "fingerprint": "bdd4a5c67d07c403866a6142e72365d21a6caf3e",
+            "host": "keybase.io",
+            "key_id": "e72365d21a6caf3e",
+            "kid": "0101597f062bffcdb8fbbc6a74b1fa89f9c836135e09ecfbb343f84b47f99c698cf80a",
+            "uid": "2b4bab1f3396f965f3eba3a67d14f000",
+            "username": "danr"
+        },
+        "revoke": {
+            "sig_ids": [
+                "b1d8a54cdad043e49d6c2fea43fd0a6aa6fb96a9d1d71deab7a306ec8f0330b60f"
+            ]
+        },
+        "service": {
+            "hostname": "danr.co.uk",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1447088090,
+    "expire_in": 157680000,
+    "prev": "cde0a953c5f80bf24243271158c74e18fadbacc26df630d8d4a73e57c475fb2b",
+    "seqno": 35,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.47
+Comment: https://keybase.io/crypto
+
+yMJlAnicrVJbaFRHGN71kpiQmIS6pa0IMhAQG8KcM3PmzFmCRrSIIqIRxdqVzVyT
+Y8w569lNomsDBrSoICJJqYKClycD3tIq7kPFJG0ISEjxRbyEKKKBQoUWESxqOie0
+0Ic+9mmYme//vu///v+n6vmJyuSisxWtdYNXTiXvDb/qSuxonnx0EPBQHgDpg6BD
+zR1qr1T5QrbDlyANoAUtx3M1JDbXWkhONeeCMBdzSzPqaU9QRCzkKOgpYf4QRppi
+jl3teYJ4VGgKGWgA2g/aVJSL/KBgaLmUmDmCuBK6AkNECWHEwrZybUQcaVuMCKaR
+MoXtYT6uMOY4y6tGPzRv5pKds/cf+P/Zd9ccnc0xZ6YSIY9ojzhGijPEjH8Lawhh
+DMyrKGCdyqAlCyLQ2wAi1R12qDjTvN9mDOdB+ivALUmZg4VkEmKksCeJsLViRl9C
+RhgjmnuEedKSriUV4y5DkChBNUQIcgI12G24jVq3L+bI44T+pdwowsauDuMoF4WF
+UIR7zXt7oZDLp2NPhQO5GNijePZviiz3A2mmYyq6VZT3wwCkLYMUBT/mtDB2IaXQ
+gw1A7c/5kcr6McJxCTWdw1hHdRtKIRVknoOEY6Lj2sY2RrZrWQ4VLlYW1UxyJoRN
+pCYISmo2wEXKMfN3Hc1tDuKm9gUhSCPH+GRthtPkFrBCV6RA78jdzIJEsjJRtnBe
+vLaJyoraf5Z5PFM+G9WUP69t6n15q1S9vKx18/GWz4Lilyfsjy427/6+Kt2bmQzJ
+08f3ewbqS6OXU29SY98cr741VV/TPDp7bfmFe9uKkx/GX/QNbv0Rlh2dyGxofP7F
+hztbVn3ayZf2/AxW0cPPfnl99A+89kHb2+17xkuL71+FE/XO6tyfxQV9M+D3T0Yu
+DbXMXAuXRON171uKdOPO2/uvnGxPPRzJPXmlVg6dv3l9eNmjmWRF9buvd677vL+h
+prS+/7vDtPXO9N2xY0rnvt0+NDbwW9Wh06ubMj8kByDru5FsKp2rGrye2rSi5sX8
+M1Pl2eLiXWsmFk5N13m105se73qZulFEs792euuXfhwe6f8LHthYMQ==
+=SEL1
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/danr
+
+==================================================================
