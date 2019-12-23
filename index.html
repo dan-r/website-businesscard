@@ -4,237 +4,55 @@
 <head>
     <title>Daniel Raper</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400" rel="stylesheet">
+    <link rel="stylesheet" href="static/index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <noscript><link rel="stylesheet" href="static/noscript.css"></noscript>
 </head>
 
 <body onload='document.getElementById("animate").className = "animate";'>
-    <style>
-        body {
-            background: radial-gradient( circle, transparent 50%, black 300%), white;
-        }
-        
-        a {
-            color: #000000;
-        }
-        
-        p {
-            margin-bottom: 0;
-        }
-        
-        main {
-            border: 1;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -35%);
-        }
-        
-        @media only screen and (max-width: 768px) {
-            body {
-                font-size: 10pt;
-                background: radial-gradient( circle, transparent 50%, black 500%), white;
-            }
-        }
-        
-       @media only screen and (max-width: 536px) {
-            body {
-                font-size: 8pt;
-            }
-        }
-        
-        @media only screen and (max-width: 400px) {
-            body {
-                font-size: 7pt;
-            }
-        }
-        
-        section {
-            width: 35em;
-            height: 20em;
-            -webkit-box-shadow: 2px 2px 9px -1px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 2px 2px 9px -1px rgba(0, 0, 0, 0.75);
-            box-shadow: 2px 2px 9px -1px rgba(0, 0, 0, 0.75);
-            
-            transition: transform .6s ease-in-out, margin 0.3s linear, opacity .4s linear;
-            opacity: 0;
-            margin-bottom: 12.5vh;
-            
-            border-left: 0.6em solid #0C9EED;
-            background-color: #ffffff;
-        }
-        
-        section.animate {
-            margin-bottom: 25vh;
-            opacity: 1;
-        }
-        
-        .avatar {
-            width: 7em;
-            border-radius: 4px;
-            padding-left: 1em;
-            padding-top: 1em;
-        }
-        
-        .name {
-            font-family: 'Raleway';
-            font-size: 1.9em;
-            margin-bottom: 0;
-        }
-        .country {
-            width: 1.2em;
-            float: left;
-            padding-top: 0.1em;
-            padding-right: 0.3em;
-        }
-        
-        .subtitle {
-            margin-top: 0.4em;
-            font-family: 'Open Sans';
-            color: #868e96;
-        }
-        
-        
-        
-        .grid-social1,
-        .grid-social2,
-        .grid-social3,
-        .grid-social4,
-        .grid-social5 {
-            font-size: 2em;
-            text-align: center;
-        }
-        
-        .grid-name {
-            margin-left: 0.9em;
-        }
-        
-        .grid-about {
-            font-family: 'Open Sans';
-            padding-left: 1em;
-            padding-right: 1em;
-        }
-        
-        .grid-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr;
-            grid-template-areas: "grid-avatar grid-name grid-name grid-name grid-name" "grid-about grid-about grid-about grid-about grid-about" "grid-social1 grid-social2 grid-social3 grid-social4 grid-social5";
-            width: 95%;
-        }
-        
-        .grid-avatar {
-            grid-area: grid-avatar;
-        }
-        
-        .grid-social1 {
-            grid-area: grid-social1;
-        }
-        
-        .grid-social2 {
-            grid-area: grid-social2;
-        }
-        
-        .grid-social3 {
-            grid-area: grid-social3;
-        }
-        
-        .grid-social4 {
-            grid-area: grid-social4;
-        }
-        
-        .grid-social5 {
-            grid-area: grid-social5;
-        }
-        
-        .grid-name {
-            grid-area: grid-name;
-        }
-        
-        .grid-about {
-            grid-area: grid-about;
-        }
-    </style>
-    
-    <noscript>
-        <style>
-            section {
-                opacity: 1 !important;
-            }
-        </style>
-    </noscript>
-    
     <main>
         <section id="animate">
             <div class="grid-container">
-                <div class="grid-avatar">
-                    <img class="avatar" src="https://avatars1.githubusercontent.com/u/1384852?s=460&v=4">
-                </div>
-                <div class="grid-name">
+                <figure class="grid-avatar">
+                    <img class="avatar" src="https://avatars1.githubusercontent.com/u/1384852">
+                </figure>
+                <header class="grid-name">
                     <h1 class="name">Daniel Raper</h1>
                     <h3 class="subtitle">
-                        <svg class="country" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                            <rect y="85.333" style="fill:#F0F0F0;" width="512" height="341.337"/>
-                            <polygon style="fill:#D80027;" points="288,85.33 224,85.33 224,223.996 0,223.996 0,287.996 224,287.996 224,426.662 288,426.662 288,287.996 512,287.996 512,223.996 288,223.996 "/>
-                            <g>
-                                <polygon style="fill:#0052B4;" points="393.785,315.358 512,381.034 512,315.358 	"/>
-                                <polygon style="fill:#0052B4;" points="311.652,315.358 512,426.662 512,395.188 368.307,315.358 	"/>
-                                <polygon style="fill:#0052B4;" points="458.634,426.662 311.652,344.998 311.652,426.662 	"/>
-                            </g>
-                            <polygon style="fill:#F0F0F0;" points="311.652,315.358 512,426.662 512,395.188 368.307,315.358 "/>
-                            <polygon style="fill:#D80027;" points="311.652,315.358 512,426.662 512,395.188 368.307,315.358 "/>
-                            <g>
-                                <polygon style="fill:#0052B4;" points="90.341,315.356 0,365.546 0,315.356 	"/>
-                                <polygon style="fill:#0052B4;" points="200.348,329.51 200.348,426.661 25.491,426.661 	"/>
-                            </g>
-                            <polygon style="fill:#D80027;" points="143.693,315.358 0,395.188 0,426.662 0,426.662 200.348,315.358 "/>
-                            <g>
-                                <polygon style="fill:#0052B4;" points="118.215,196.634 0,130.958 0,196.634 	"/>
-                                <polygon style="fill:#0052B4;" points="200.348,196.634 0,85.33 0,116.804 143.693,196.634 	"/>
-                                <polygon style="fill:#0052B4;" points="53.366,85.33 200.348,166.994 200.348,85.33 	"/>
-                            </g>
-                            <polygon style="fill:#F0F0F0;" points="200.348,196.634 0,85.33 0,116.804 143.693,196.634 "/>
-                            <polygon style="fill:#D80027;" points="200.348,196.634 0,85.33 0,116.804 143.693,196.634 "/>
-                            <g>
-                                <polygon style="fill:#0052B4;" points="421.659,196.636 512,146.446 512,196.636 	"/>
-                                <polygon style="fill:#0052B4;" points="311.652,182.482 311.652,85.331 486.509,85.331 	"/>
-                            </g>
-                            <polygon style="fill:#D80027;" points="368.307,196.634 512,116.804 512,85.33 512,85.33 311.652,196.634 "/>
-                        </svg>
+			<img class="country" src="static/uk.svg" />
                         Southampton
                     </h3>
-                </div>
-                <div class="grid-about">
+                </header>
+                <summary class="grid-about">
                     <p>I am a full time Software Analyst and undergraduate Software Engineer. I do some Web Development and Photography in my spare time.</p>
-                </div>
-                <div class="grid-social1">
+                </summary>
+                <article class="grid-social1">
                     <a target="_blank" href="https://dan.ms/">
                         <i class="fas fa-camera"></i>
                     </a>
-                </div>
-                <div class="grid-social2">
+                </article>
+                <article class="grid-social2">
                     <a target="_blank" href="https://github.com/dan-r">
                         <i class="fab fa-github"></i>
                     </a>
-                </div>
-                <div class="grid-social3">
+                </article>
+                <article class="grid-social3">
                     <a target="_blank" href="https://www.amazon.co.uk/s/ref=nb_sb_noss?url=search-alias%3Dalexa-skills&field-keywords=Dan.ms">
                         <i class="fab fa-amazon"></i>
                     </a>
-                </div>
-                <div class="grid-social4">
+                </article>
+                <article class="grid-social4">
                     <a target="_blank" href="https://www.flickr.com/photos/114868201@N02/">
                         <i class="fab fa-flickr"></i>
                     </a>
-                </div>
-                <div class="grid-social5">
+                </article>
+                <article class="grid-social5">
                     <a href="mailto:website@danr.uk">
                         <i class="fas fa-envelope"></i>
                     </a>
-                </div>
-
+                </article>
             </div>
-
         </section>
     </main>
     

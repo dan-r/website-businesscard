@@ -1,0 +1,144 @@
+body {
+    background: radial-gradient( circle, transparent 50%, black 300%), white;
+}
+
+a {
+    color: #000000;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+main {
+    border: 1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 10pt;
+        background: radial-gradient( circle, transparent 50%, black 500%), white;
+    }
+}
+
+@media only screen and (max-width: 536px) {
+    body {
+        font-size: 8pt;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        font-size: 7pt;
+    }
+}
+
+section {
+    width: 35em;
+    height: 20em;
+    -webkit-box-shadow: 2px 2px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 9px -1px rgba(0, 0, 0, 0.75);
+    
+    transition: transform .6s ease-in-out, margin 0.3s linear, opacity .4s linear;
+    opacity: 0;
+    margin-bottom: 12.5vh;
+    
+    border-left: 0.6em solid #0C9EED;
+    background-color: #ffffff;
+}
+
+section.animate {
+    margin-bottom: 25vh;
+    opacity: 1;
+}
+
+.avatar {
+    width: 7em;
+    border-radius: 4px;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.name {
+    font-family: 'Raleway';
+    font-size: 1.9em;
+    margin-bottom: 0;
+}
+.country {
+    width: 1.2em;
+    float: left;
+    padding-top: 0.1em;
+    padding-right: 0.3em;
+}
+
+.subtitle {
+    margin-top: 0.4em;
+    font-family: 'Open Sans';
+    color: #868e96;
+}
+
+
+
+.grid-social1,
+.grid-social2,
+.grid-social3,
+.grid-social4,
+.grid-social5 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.grid-name {
+    margin-left: 0.9em;
+}
+
+.grid-about {
+    font-family: 'Open Sans';
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "grid-avatar grid-name grid-name grid-name grid-name" "grid-about grid-about grid-about grid-about grid-about" "grid-social1 grid-social2 grid-social3 grid-social4 grid-social5";
+    width: 95%;
+}
+
+.grid-avatar {
+    grid-area: grid-avatar;
+}
+
+.grid-social1 {
+    grid-area: grid-social1;
+}
+
+.grid-social2 {
+    grid-area: grid-social2;
+}
+
+.grid-social3 {
+    grid-area: grid-social3;
+}
+
+.grid-social4 {
+    grid-area: grid-social4;
+}
+
+.grid-social5 {
+    grid-area: grid-social5;
+}
+
+.grid-name {
+    grid-area: grid-name;
+}
+
+.grid-about {
+    grid-area: grid-about;
+}
